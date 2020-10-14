@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Staatliches&family=Tangerine&family=Permanent+Marker&display=swap');
+
+* {
+    padding: 0px;
+    margin: auto;
+}
+
+body{
+    background-color: rgb(82, 82, 82);
+}
+
+main {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(136, 136, 136, 0.397);
+    color: black;
+    width: 80vw;    
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* heading styles */
+
+#title {
+    font-family: 'Staatliches', cursive;
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+    padding-top: 40px;
+}
+
+#nickname {
+    font-family: 'Tangerine', cursive;
+    font-size: 1.7em;
+    padding-bottom: 40px;
+}
+
+/* image styles */
+
+#image {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+#img-caption {
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.img-div {
+    padding-bottom: 40px;
+}
+
+/* "about" styles */
+
+#tribute-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#tribute-info > .about {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+/* accolade styles */
+
+#tribute-info > .accolades {
+    /* width: 914px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    padding-bottom: 40px;
+}
+
+h3 {
+    font-size: 1.6em;
+}
+
+/* fighting strength styles */
+ol {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Permanent Marker', cursive;
+}
+
+ol > li{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.8em;
+    margin: 30px 45px;
+}
+
+/* career highlight styles */
+
+ul > li {
+    font-size: 1.2em;
+    margin: 15px;
+}
+
+/* footer styles */
+
+.footer {
+    padding: 20px;
+}
